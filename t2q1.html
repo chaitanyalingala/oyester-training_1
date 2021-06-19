@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oyesters Assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="container m-1 mt-">
+      <h1>Task - II</h1>
+      <h5 class="mt-4">Problem - I</h5>
+      <p>Enter numbers seperated by space</p>
+      <p id="error" style="color: red">Enter 2 or more numbers</p>
+      <form class="row g-2">
+        <div class="col-auto">
+          <input
+            type="text"
+            class="form-control"
+            id="array"
+            placeholder="Enter array"
+          />
+        </div>
+        <div class="col-auto">
+          <button
+            type="submit"
+            class="btn btn-primary mb-3"
+            onclick="return onClick()"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+      <div class="row g-2">
+        <h5 class="col-auto">Solution :</h5>
+        <p class="col-auto" id="hello"></p>
+      </div>
+    </main>
+    <style>
+      #error {
+        display: none;
+      }
+    </style>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="t2q1.js"></script>
+  </body>
+</html>
